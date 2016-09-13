@@ -1,0 +1,17 @@
+Cascading Style Sheets
+
+css zen garden - see site
+
+Specificty says that each rule has a certain specificity score. Higher is what's applied.
+Inline styles are more specific; not as good to use due to diff in later edits.
+Higher number of selectors wins like body > h1 vs h1
+
+important has specificity of infinity.
+inline has specificity of 1000
+ID have specificity of 100
+class has specificity of 10
+tag has " of 1
+
+
+Three ways to do styles: inline, in <style></style>, and in stylesheet.
+If multiple <link> tags are included in index.html, the one they are processed in order and lowest on page will override ones above.
